@@ -9,6 +9,7 @@
     --darkest_color: #2B343F;
     --2nd_header_color: #546B88;
     --middle_color: #788BA3;
+    --promo_button-color: #E87323;
 }
 body{
     background-color: var(--almost_white_color);
@@ -135,7 +136,6 @@ a {
 }
 
 footer{
-    position:absolute;
     bottom:0;
     width:100%;
     height:100px;
@@ -180,4 +180,21 @@ footer nav li:last-child{
 
 footer nav li:nth-child(2){
     width: 130px;
+}
+
+.promo{
+    width: 800px;
+    margin: 0 auto;
+    padding: 2.5em 0;
+}
+
+.promo_button{
+    position: relative;
+    top: -130px;
+    left: 20px;
+    padding: 23px 40px;
+    background-color: var(--promo_button-color);
+    border: 0;
+    font: var(--header_font_style);
+    cursor: pointer;
 }
