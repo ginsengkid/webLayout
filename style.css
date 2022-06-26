@@ -1,34 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    line-height: 1.5em;
-    --header_font_style: 1.5em "Raleway";
-    --regular_font_style: 1em "Raleway";
-    --almost_white_color: #F0EEEB;
-    --darkest_color: #2B343F;
-    --2nd_header_color: #546B88;
-    --middle_color: #788BA3;
-    --promo_button-color: #E87323;
-}
-body{
-    background-color: var(--almost_white_color);
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-ul, nav {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
-}
-
 .upper-wrapper{
     background-color: var(--darkest_color);
     width: 100%;
