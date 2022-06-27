@@ -1,26 +1,30 @@
 .header-wrapper{
     background-color: var(--2nd_header_color);
     width: 100%;
-    height: 50px;
+    height: 55px;
     display: flex;
     justify-content: center;
 }
 
 .smaller_search {
-    margin-top: calc((50px - 36px) / 2)  !important;
+    margin-top: calc((55px - 36px) / 2)  !important;
+}
+
+.smaller_height a{
+    z-index: 11;
 }
 
 .profile_logo {
     position: absolute;
-    width: 60px;
-    height: 57px;
+    width: 67px;
+    height: 63px;
     top: -4px;
     padding: 0 !important;
     margin: 0 !important;
 }
 
 .smaller_height{
-    height: 50px !important;
+    height: 55px !important;
 }
 
 .body{
@@ -34,29 +38,51 @@
     bottom: 0;
 }
 
-.welcome{
+.left_part{
+    display: inline-block;
+    width: 290px;
+}
+
+.profile_container{
+    width: 290px;
+    height: 40px;
     float: left;
     background-color: white;
     border: 1px solid var(--darkest_color);
-    width: 290px;
-    height: 155px;
-    margin-right: 105px;
-    margin-left: 0;
 }
+
+.welcome{
+    height: 155px;
+    margin-bottom: 15px;
+}
+
+.favourites{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.menu .profile_container{
+    border: 0;
+}
+
+.menu .profile_container:not(:last-child){
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.menu {
+    float: left;
+    background-color: white;
+    border: 1px solid var(--darkest_color);
+    margin-bottom: 15px;
+}
+
 
 .right_part{
     float: right;
     background-color: white;
     border: 1px solid var(--darkest_color);
     width: 420px;
-    height: 650px;
-}
-
-.welcome img{
-    float: left;
-    margin-top: 35px;
-    margin-left: 20px;
-    border-radius: 40px;
+    height: 600px;
 }
 
 .welcome p{
@@ -70,4 +96,133 @@
 
 .welcome p:first-child{
     top: 35px;
+}
+
+.profile_container img{
+    float: left;
+    margin: 7px 25px 0 15px;
+}
+
+.welcome img{
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.menu_text, .menu p{
+    font: var(--regular_font_style);
+    text-transform: uppercase;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+
+.avatar{
+    margin-left: 93px;
+    margin-top: 53px;
+}
+
+.avatar_small{
+    margin: 35px 0 20px 137px;
+}
+
+.profile_text{
+    margin-left: 67px;
+    width: 285px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Raleway", serif;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.chosen{
+    background-color: var(--2nd_header_color);
+    color: var(--almost_white_color);
+}
+
+.right_part .pform{
+    font-variant-numeric: lining-nums;
+    font: var(--regular_font_style);
+    margin-top: 28px;
+    margin-left: 30px;
+    width: 280px;
+    text-transform: uppercase;
+}
+
+.pform input{
+    font-variant-numeric: lining-nums;
+    font: var(--regular_font_style);
+    padding-left: 5px;
+    padding-top: 2px;
+    height: 30px;
+    margin-top: 5px;
+    border: 0;
+    width: 250px;
+    background-color: var(--middle_color);
+}
+
+.pform input::placeholder, .pform input{
+    text-align: center;
+    color: var(--almost_white_color);
+}
+
+.pform button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-left: 2px solid var(--darkest_color);
+    padding-top: 7px;
+    float: right;
+    padding-left: 0;
+    margin-top: 5px;
+    background-color: var(--middle_color);
+    cursor: pointer;
+}
+
+.radio_pForm{
+    padding-bottom: 15px;
+    margin-top: 28px;
+    margin-left: 40px;
+    font: var(--regular_font_style);
+}
+
+.radio_pForm p{
+    padding-top: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.radio_pForm input{
+    margin-right: 5px;
+}
+
+.inline_btn .pform{
+    width: 290px;
+}
+
+
+.inline_btn .btn{
+    float: left;
+    margin-left: 30px;
+    margin-top: 23px;
+}
+
+.map_img{
+    margin: 17px 0 0 52px;
+}
+
+.inline_btn .pform{
+    float: left;
+    width: 220px;
+    margin-top: 33px;
+}
+
+.profile_soc_logo{
+    cursor: pointer;
+    float: left;
+    margin-right: 13px;
+    margin-top: 7px;
 }

@@ -157,7 +157,7 @@ footer nav li:nth-child(2){
     padding: 2.5em 0;
 }
 
-.promo_button{
+.btn{
     position: relative;
     top: -130px;
     left: 20px;
@@ -166,4 +166,11 @@ footer nav li:nth-child(2){
     border: 0;
     font: var(--header_font_style);
     cursor: pointer;
+}
+
+.small_btn {
+    padding: 10px 15px;
+    font: var(--regular_font_style);
+    position: inherit;
+    margin-top: 20px;
 }
