@@ -12,9 +12,11 @@
     --middle_color: #788BA3;
     --promo_button-color: #E87323;
     --background-color: #EBEEF0;
+    --second_background_color: #FCFCFC;
 }
 body{
     background-color: var(--background-color);
+    min-width: 900px;
 }
 
 html {
