@@ -5,6 +5,7 @@
     <title>web</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
         <div class="flex_wrapper">
             <div class="upper">
                 <h2>
-                    <a href="#">
+                    <a href="main.html">
                         <picture>
                             <img src="img/logo.png" alt="logo" width="150" height="135">
                         </picture>
@@ -76,20 +77,71 @@
     </div>
 </header>
 
-<div class="body">
-    <div class="promo">
+<div class="body product">
+    <nav class="breadcrumbs">
+        <a href="main.html">
+            <p>main page</p>
+        </a>
+        <p>&gt;</p>
+        <a href="shops.html">
+            <p>shops</p>
+        </a>
+        <p>&gt;</p>
+        <p>bershka</p>
+    </nav>
+
+
+    <div class="single_item shop_item">
         <picture>
-            <img src="img/promo2022.png" alt="logo" width="800" height="565">
+            <img src="img/huge_bershka.png" height="129x" width="429px" alt="logo">
         </picture>
+        <picture>
+            <img src="img/bershka_promo.png" height="310px" width="435px" alt="promo">
+        </picture>
+
+        <div class="info" style="width: 320px;">
+            <p>STYLE: </p><p><b>casual</b></p>
+            <br>
+            <p>FOR:</p><p><b>men, women, teens</b></p>
+            <br>
+            <p>PRICE:</p>
+            <img src="img/price.png" alt="favs" height="15" width="79" style="float: initial">
+            <br>
+            <p>COLLECTIONS: </p>
+            <ul>
+                <li>
+                    <p><b>AUTUMN 21</b></p>
+                </li>
+                <li>
+                    <p><b>WINTER 21/22</b></p>
+                </li>
+            </ul>
+            <p>POPULAR ADDRESSES: </p>
+            <ul>
+                <li>
+                    <p><b>LETO mall</b></p>
+                </li>
+                <li>
+                    <p><b>GALEREIA mall</b></p>
+                </li>
+            </ul>
+
+            <a href="search_results.html">
+                <button class="btn small_btn" style="float: right; margin-right: 20px">all products</button>
+            </a>
+
+        </div>
+
+        <h2 style="margin: 80px 20px 0 20px">ABOUT THIS SHOP</h2>
+        <p class="about_p" style="margin: 10px 20px 0 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur mi nulla, non mollis lectus dapibus et. Nam a sem consequat neque laoreet bibendum. Morbi sed nibh pulvinar nisl cursus posuere. Integer lacinia elit lectus, quis iaculis eros blandit et. Integer feugiat ultrices ante, eget fermentum nibh sagittis eu. Vivamus sodales non nunc quis laoreet. Nam mauris ante, blandit nec porta vel, consequat quis felis. Praesent blandit accumsan malesuada.
+        </p>
     </div>
 
-    <div class="promo">
-        <img src="img/tokyo_promo.png" alt="logo" width="800" height="500">
-        <button class="btn">go to collection</button>
-    </div>
 </div>
 
-<footer>
+
+
+<footer class="small_pages">
     <nav class="footer_wrapper">
         <ul>
             <li>
