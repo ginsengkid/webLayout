@@ -151,10 +151,11 @@ footer nav li:nth-child(2){
 }
 
 .small_pages{
+    bottom: 0;
     position: absolute;
 }
 
-@media all and (max-height:1050px) {
+@media all and (max-height:950px) {
     .small_pages{
         position: static;
     }
@@ -355,7 +356,6 @@ footer nav li:nth-child(2){
 .item_favs{
     float: right;
     cursor: pointer;
-    margin-top: 30px;
     margin-right: 10px;
 }
 
@@ -386,7 +386,7 @@ footer nav li:nth-child(2){
     justify-content: space-between;
     align-content: space-between;
 }
-.sort_item  {
+.sort_item {
     width: 200px;
     height: 50px;
     background-color: var(--middle_color);
@@ -464,7 +464,7 @@ footer nav li:nth-child(2){
     padding: 40px;
 }
 
-.ingfo .shop_item h3,p{
+.info .shop_item h3, .shop_item p{
     display: inline-block;
     margin-right: 5px;
     margin-bottom: 10px !important;

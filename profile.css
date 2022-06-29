@@ -48,7 +48,6 @@
     }
 }
 
-
 .left_part{
     display: inline-block;
     width: 290px;
@@ -87,10 +86,9 @@
     margin-bottom: 15px;
 }
 
-
 .right_part{
     float: right;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid var(--darkest_color);
     width: 420px;
     height: 600px;
@@ -114,19 +112,15 @@
     margin: 7px 25px 0 15px;
 }
 
+.profile_container p{
+    padding-top: 7px;
+}
+
 .welcome img{
     float: left;
     margin-top: 35px;
     margin-left: 20px;
     border-radius: 40px;
-}
-
-.menu_text, .menu p{
-    font: var(--regular_font_style);
-    text-transform: uppercase;
-    line-height: 40px;
-    vertical-align: middle;
-    font-size: 1.1em;
 }
 
 .avatar{
@@ -214,7 +208,6 @@
     width: 290px;
 }
 
-
 .inline_btn .btn{
     float: left;
     margin-left: 30px;
@@ -237,4 +230,3 @@
     margin-right: 13px;
     margin-top: 7px;
 }
-
