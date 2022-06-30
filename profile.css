@@ -174,9 +174,7 @@
     background-color: var(--middle_color);
 }
 
-.pform img{
-    margin-left: 12px;
-}
+
 
 .pform input::placeholder, .pform input{
     text-align: center;
