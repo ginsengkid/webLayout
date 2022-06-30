@@ -115,6 +115,10 @@ footer{
     align-items: center;
 }
 
+footer picture{
+    padding-right: 10px;
+}
+
 .footer_wrapper ul{
     width: 800px;
     display: flex;
