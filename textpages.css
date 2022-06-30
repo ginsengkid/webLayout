@@ -43,7 +43,6 @@
 }
 
 .text_wrapper{
-    height: 800px;
     background-color: var(--second_background_color);
     color: var(--darkest_color);
     padding: 40px 90px;
@@ -79,4 +78,8 @@ h2{
     font: var(--regular_font_style);
     color: var(--darkest_color);
     line-height: 30px;
+}
+
+.social p{
+    width: 150px;
 }

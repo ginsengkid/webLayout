@@ -39,6 +39,11 @@
     position: absolute;
 }
 
+.smaller_footer_text{
+    bottom: 0;
+    position: static;
+}
+
 @media all and (max-height:850px) {
     .smaller_footer {
         position: static;
